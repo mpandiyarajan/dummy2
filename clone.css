@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: black;
+    color: white;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 12px 20px;
+}
+
+.header_profile{
+    object-fit: cover;
+    border-radius: 1000px;
+    margin-left: 12px;
+}
+.header_profile{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+   cursor: pointer;
+   transition: 1s;
+}
+.header_profile:hover{
+    opacity: 0.2;
+
+}
+.header_profile:hover:active{
+    opacity: 0.2;
+
+}
+  
+.mail_link{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.mail_link:hover{
+ opacity: 0.3;
+}
+.mail_link:hover:active{
+    opacity: 0.2;
+}
+
+.images_link{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+.images_link:hover{
+    opacity: 0.2;
+}
+.images_link:hover:active{
+    opacity: 0.2;
+}
+.search_lab{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    cursor: pointer;
+    background-color:whitesmoke;
+    transition:1s;
+}
+.search_lab:hover{
+    opacity: 0.4;
+}
+.search_lab:hover:active{
+    opacity: 0.2;
+}
+.app_icons{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 1s;
+    background-color: white;
+
+}
+.app_icons:hover{
+    opacity: 0.5;
+}
+.app_icons:hover:active{
+    opacity: 0.2;
+}
+
+
+.content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom:55px;
+    height: 100px;
+}
+.center{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 65px;
+    max-width: 500%;
+}
+.searchbar{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    height: 25px;
+    transition: 1s;
+}
+.search_button{
+    display: flex;
+    border-radius: 35%;
+    border: none;
+    ba
+    border-color: white;
+    justify-content: center;
+    margin-top: 8px;
+    inset-inline-start: 12% 30px;
+
+}
+.url_bar{
+    display: flex;
+    flex-direction: row;
+    width:30%;
+    height: 150%;
+    background-color:white ;
+    border-radius: 50px;
+    border-style: solid ;
+    font-family: 'Segoe UI', sans-serif;
+    font-size:15px;
+
+}
+.input{
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    color: black;
+    padding-inline-start: 25px;
+
+}
+.search:hover{
+    opacity: 0.2;
+}
+.search:hover:active{
+    opacity: 0.5;
+}
+.v_search{
+    display: flex ;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+
+}
+.Searchby_image{
+  display: flex;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  inset-inline: 5% 10%;
+
+}
+.third_container{
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    justify-content:center;
+    margin-bottom: 40px;
+}
+.youtube_image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 40px;
+    align-items: center;
+    border-style: solid;
+    border: 0;
+    border-radius: 56%;
+    margin-right: 45PX ;
+    transition: 1s;
+
+}
+.Y_image{
+    position: relative;
+    display: flex;
+    width: 50PX;
+    height: 100% ;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.Y_imag:hover{
+    opacity: 0.5;
+}
+.Y_imag:hover:active{
+    opacity: 0.2;
+}
+.mail_image{
+    display: flex;
+    height: 38px;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 10px;
+    border-style: solid;
+    border: 0;
+    background-color: white;
+    border-radius: 56%;
+    margin-right: 45px;
+    transition: 1s;
+
+}
+.M_iamge{
+    display: flex;
+    width: 50px;
+    height: 57% ;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.M_iamge:hover{
+    opacity: 0.5;
+}
+.M_iamge:hover:active{
+    opacity: 0.2;
+}
+.Spotifyimage{
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 30PX;
+    cursor: pointer; 
+    border-style: solid;
+    border:0;
+    border-radius: 56%;
+    margin-right: 45px;
+    transition: 1s;
+}
+  
+.S_image{
+    display: flex;
+    width: 100%;
+    height: 45px ;
+    flex-direction: row;
+    justify-content: space-between;
+}
+  
+
+.S_image:hover{
+opacity: 0.5;
+}
+.S_image:hover:active{
+    opacity: 0.2;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
